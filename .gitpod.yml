@@ -5,7 +5,7 @@ tasks:
   - name: Script Task
     init: echo 'init script' # runs during prebuild => https://www.gitpod.io/docs/configure/projects/prebuilds
     command: echo 'start script'
-  - before: sdk install java 8.0.402-amzn < /dev/null
+  - before: sdk install java 22-amzn < /dev/null
 
 # Learn more from ready-to-use templates: https://www.gitpod.io/docs/introduction/getting-started/quickstart
 vscode:

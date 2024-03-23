@@ -1,9 +1,25 @@
+# Disruptor vs ForkJoinPool playground
+
 (Implicitly uses JMH)
 
-Use JDK 8 GA to build and run.
+Use JDK 11 GA to build and run.
 
-Build:
- $ mvn clean install
+## Build:
 
-Run:
- $ java -jar target/microbenchmarks.jar
+```bash
+./mvnw clean install
+java -jar target/microbenchmarks.jar
+```
+
+## Other commands
+
+```bash
+./mvnw versions:display-dependency-updates
+./mvnw versions:display-plugin-updates
+```
+
+## References
+
+- https://lmax-exchange.github.io/disruptor/
+- https://mvnrepository.com/artifact/com.lmax/disruptor
+- https://github.com/openjdk/jmh
